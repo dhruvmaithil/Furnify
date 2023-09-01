@@ -2,7 +2,7 @@
 {%block title%}Welcome{%endblock%}
 {%block content%}
 <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
-    <h2 class="mb-12 text-2xl text-center">Newest items</h2>
+    <h2 class="mb-12 text-2xl text-center font-medium">Newest items</h2>
 
     <div class="grid grid-cols-3 gap-3">
         {%for item in items%}
@@ -23,7 +23,7 @@
 </div>
 
 <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
-    <h2 class="mb-12 text-2xl text-center">Categories</h2>
+    <h2 class="mb-12 text-2xl text-center font-medium">Categories</h2>
 
     <div class="grid grid-cols-3 gap-3">
         {% for category in categories %}

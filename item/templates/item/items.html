@@ -32,9 +32,10 @@
                 <li><a href="{% url 'item:items'%}" class="font-medium mt-2 py-4 px-8 inline-block bg-yellow-500 text-lg rounded-xl text-white">Reset</a>
     
         </div>
-
+        
+        
         <div class="col-span-3">
-            <div class="grid grid-cols-3 gap-3">
+            <div class="grid grid-cols-3 gap-3 mt-2">
                 {%for item in items%}
                     <div>
                         <a href="{% url 'item:detail' item.id %}" >
